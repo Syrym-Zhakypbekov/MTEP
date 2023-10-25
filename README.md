@@ -35,7 +35,14 @@ Development of a Multilingual Method for Automatic Translation and Emotional Syn
 - Audio Extraction
 - Segmenting Video into Frames
 - Speech-to-Text Conversion
-... (list other features)
+- Text Tokenization
+- Sentiment Analysis
+- Text Translation
+- Emotion Classification
+- Text-to-Speech Conversion
+- Transferring Voice Styles
+- Feature Extraction
+- Learning Joint Representations
 
 ## System Requirements
 
@@ -69,7 +76,9 @@ Describe the algorithms and methods used in [Methods](Methods/).
 - Signal Processing
 - Computer Vision Algorithms
 - Deep Learning
-... (list other methods)
+- Machine Learning
+- Neural Networks
+- Supervised Learning
 
 ## Models
 
@@ -78,7 +87,18 @@ Details about the models used are in [Models](Models/).
 - Extraction Models
 - Optical Flow Models
 - DeepSpeech
-... (list other models)
+- Wav2Vec 2.0
+- Tokenization Models
+- Sentiment Models
+- Transformer
+- BERT
+- GPT-3
+- Emotion Models
+- Tacotron 2
+- StarGAN-VC
+- WaveGlow
+- Fusion Models
+- Multimodal Fusion Models
 
 ## Data
 
