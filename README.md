@@ -29,19 +29,27 @@
 
 ## Introduction
 
-The Multilingual Translation Emotion Project (MTEP) aims to develop a groundbreaking approach in the realm of multilingual communication and emotional synthesis. Focused on audio-visual media, the project's ultimate goal is to provide seamless translation and emotion infusion for the Kazakh language. As media consumption is not confined to linguistic or national boundaries, the need for comprehensive translation solutions that also account for emotional nuances has never been greater.
+The Multilingual Translation Emotion Project (MTEP) is an ambitious initiative aimed at redefining the landscape of audio-visual media through automatic translation and emotional synthesis, with a particular focus on the Kazakh language. This project is a collaborative effort involving key participants and contributors:
+
+- Duzbaev Nurzhan Tokkuzhaevich, Associate Professor and Vice-Rector for Digitalization and Innovation at International IT University (IITU)
+- Syrym Zhakypbekov, Senior Lecturer at IITU
+- Valentin Malykh from MTS AI / ITMO University, an expert in Artificial Intelligence and Natural Language Processing
+
+Rooted in the academic and technological prowess of International IT University, established in 2009 to foster IT specialists in Kazakhstan, the project aims to offer a comprehensive solution for multilingual and emotionally nuanced media consumption. Leveraging state-of-the-art machine learning models and algorithms, MTEP is designed to bridge the existing gaps in language translation and emotional context in digital media.
 
 ## Body
 
-MTEP is engineered to serve a multitude of purposes, from basic audio extraction to complex emotion classification. The project employs state-of-the-art machine learning models and algorithms to accomplish tasks such as Speech-to-Text Conversion, Text Tokenization, Sentiment Analysis, and Text Translation. More advanced features include Emotion Classification, Text-to-Speech Conversion, and Learning Joint Representations for multi-modal data.
+The MTEP project stands at the intersection of multiple disciplines including natural language processing, computer vision, emotion analysis, and machine translation, aiming to revolutionize the way we interact with audio-visual media. It is designed to handle a series of intricate tasks: from audio extraction and video segmentation to complex emotion classification and speech synthesis. The platform will not only translate speech into the Kazakh language but will also synthesize the emotional undertones to make the media content more engaging and relatable.
 
-The project is designed to be robust and scalable, capable of handling large datasets and serving multiple domains. It leverages an array of machine learning frameworks and toolkits such as PyTorch, TensorFlow, ESPnet, and Librosa, among others. These tools are carefully selected to ensure optimum performance across various tasks.
+Built on a robust architecture, the project encapsulates a range of cutting-edge models and algorithms. For instance, it employs DeepSpeech and Wav2Vec 2.0 for speech recognition, Tacotron 2 and WaveGlow for text-to-speech conversion, and state-of-the-art Transformer and BERT models for translation and NLP tasks. Emotion recognition is another critical aspect, tackled through advanced models like EmoReact and AffectNet. The project also explores the realm of multimodal learning and data fusion, using models like MMBT and ViLBERT to handle text, audio, and video data in a unified framework.
 
-In terms of data, the project is trained on a rich and diverse set of instances, including audio-visual datasets, sentiment-labeled datasets, and domain-specific datasets. This ensures the models are not only accurate but also versatile, capable of understanding and generating content that is emotionally resonant and contextually relevant.
+The significance of the project lies not just in its technical complexity but also in its social impact. By focusing on the Kazakh language, MTEP serves as a catalyst for cultural preservation and inclusivity. It addresses the needs of a multilingual audience, thereby contributing to the global media landscape while retaining local essence.
+
 
 ## Conclusion
 
-The Multilingual Translation Emotion Project stands as a comprehensive solution for the challenges of modern-day multilingual media. By offering not just translation but also emotional synthesis, the project paves the way for a more nuanced and effective form of cross-cultural communication. With its focus on the Kazakh language, MTEP also contributes to the broader efforts of preserving and promoting linguistic diversity in the digital age.
+MTEP is not just a project but a comprehensive ecosystem that aims to redefine the paradigms of audio-visual media interaction. With its focus on the Kazakh language, it adds another layer of cultural significance, making it more than just a technological marvel. The collaborative efforts of experts like Duzbaev Nurzhan Tokkuzhaevich from IITU and Valentin Malykh from MTS AI / ITMO University promise a blend of academic rigor and practical innovation. As the project matures, it holds the potential to not only enrich the media experience by breaking language and emotional barriers but also to set new standards in the realms of machine learning, natural language processing, and emotional AI.
+
 
 ## Features
 
