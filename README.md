@@ -85,21 +85,40 @@ Describe the algorithms and methods used in [Methods](Methods/).
 
 Details about the models used are in [Models](Models/).
 
-- Extraction Models
-- Optical Flow Models
-- DeepSpeech
-- Wav2Vec 2.0
-- Tokenization Models
-- Sentiment Models
-- Transformer
-- BERT
-- GPT-3
-- Emotion Models
-- Tacotron 2
-- StarGAN-VC
-- WaveGlow
-- Fusion Models
-- Multimodal Fusion Models
+### Speech Recognition
+- **DeepSpeech**: End-to-end deep learning-based speech recognition.
+- **Wav2Vec 2.0**: Self-supervised speech recognition.
+
+### Text-to-Speech
+- **Tacotron 2**: Sequence-to-sequence model for human-like speech.
+- **WaveGlow**: Converts mel-spectrograms to audio.
+
+### Translation and NLP
+- **Transformer**: For machine translation and NLP.
+- **BERT**: Text analysis and understanding.
+- **GPT-3**: Text generation and translation.
+
+### Emotion Recognition
+- **EmoReact**: Emotion recognition from speech.
+- **AffectNet**: Emotion recognition from facial expressions.
+
+### Video Processing
+- **Optical Flow Models**: Motion detection and video segmentation.
+
+### Multimodal Models
+- **MMBT**: Text and image data tasks.
+- **ViLBERT**: Visual and textual data tasks.
+
+### Data Fusion
+- **Fusion Models**: Combining audio, video, and text features.
+
+### Audio Signal Processing
+- **CRNN**: Audio classification and feature extraction.
+
+### Others
+- **StarGAN-VC**: Voice conversion and style transfer.
+- **WaveGlow**: Generating speech from mel-spectrograms.
+
 
 ## Data
 
