@@ -29,7 +29,19 @@
 
 ## Introduction
 
-Development of a Multilingual Method for Automatic Translation and Emotional Synthesis of Speech in Audio-Visual Media to Kazakh language.
+The Multilingual Translation Emotion Project (MTEP) aims to develop a groundbreaking approach in the realm of multilingual communication and emotional synthesis. Focused on audio-visual media, the project's ultimate goal is to provide seamless translation and emotion infusion for the Kazakh language. As media consumption is not confined to linguistic or national boundaries, the need for comprehensive translation solutions that also account for emotional nuances has never been greater.
+
+## Body
+
+MTEP is engineered to serve a multitude of purposes, from basic audio extraction to complex emotion classification. The project employs state-of-the-art machine learning models and algorithms to accomplish tasks such as Speech-to-Text Conversion, Text Tokenization, Sentiment Analysis, and Text Translation. More advanced features include Emotion Classification, Text-to-Speech Conversion, and Learning Joint Representations for multi-modal data.
+
+The project is designed to be robust and scalable, capable of handling large datasets and serving multiple domains. It leverages an array of machine learning frameworks and toolkits such as PyTorch, TensorFlow, ESPnet, and Librosa, among others. These tools are carefully selected to ensure optimum performance across various tasks.
+
+In terms of data, the project is trained on a rich and diverse set of instances, including audio-visual datasets, sentiment-labeled datasets, and domain-specific datasets. This ensures the models are not only accurate but also versatile, capable of understanding and generating content that is emotionally resonant and contextually relevant.
+
+## Conclusion
+
+The Multilingual Translation Emotion Project stands as a comprehensive solution for the challenges of modern-day multilingual media. By offering not just translation but also emotional synthesis, the project paves the way for a more nuanced and effective form of cross-cultural communication. With its focus on the Kazakh language, MTEP also contributes to the broader efforts of preserving and promoting linguistic diversity in the digital age.
 
 ## Features
 
