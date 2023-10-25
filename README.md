@@ -156,11 +156,85 @@ Details about the models used are in [Models](Models/).
 
 ## Data
 
-Information about the dataset in [Data](Data/).
+Information about the dataset can be found in [Data](Data/).
 
-- Instance trained on audio-visual dataset
-- Instance trained on video dataset
-... (list other instances)
+### Dataset Instances
+
+- **Audio-Visual Dataset**: Instances trained on a mixed dataset containing both audio and visual information.
+- **Video Dataset**: Instances specifically trained on video data.
+- **Audio Dataset**: Instances trained on audio clips or soundscapes.
+- **Text Corpus**: Instances trained on textual data for translation and NLP tasks.
+- **Sentiment Labeled Dataset**: Instances trained on data that has been labeled for sentiment or emotion.
+- **Multilingual Dataset**: Instances trained on a dataset that includes multiple languages.
+- **Emotion Labeled Speech Dataset**: Instances trained on speech data labeled for various emotions.
+- **LibriSpeech Dataset**: Instances trained on the LibriSpeech dataset for speech recognition.
+- **WMT'14 English to French**: Instances trained on the WMT'14 dataset for translation tasks.
+- **Mozilla's Common Voice Dataset**: Instances trained on Mozilla’s Common Voice dataset for ASR.
+- **Domain-Specific Dataset**: Instances trained on data from a specific domain (e.g., medical, legal).
+- **Synthetic Dataset**: Instances trained on artificially generated or augmented data.
+- **Real-World Dataset**: Instances trained on data collected from real-world scenarios.
+- **Time-Series Dataset**: Instances trained on data that is ordered or indexed by time.
+- **Image Dataset**: Instances trained on image data for visual tasks.
+- **Multimodal Dataset**: Instances trained on data that combines text, audio, and/or video.
+
+
+
+## Step-by-Step Data Collection and Training
+
+### Data Collection
+
+#### Audio and Video Data
+1. Use a web scraper or API to collect audio and video clips.
+2. Save them in `Data/Raw/English/Audio` and `Data/Raw/English/Video`.
+
+#### Transcription Data
+1. Manually transcribe or use an Automatic Speech Recognition (ASR) tool.
+2. Save transcriptions in `Data/Raw/English/Transcription`.
+
+#### Emotion Labels
+1. Manually label or use an emotion recognition tool.
+2. Save labels in `Data/Raw/English/Emotion`.
+
+### Data Preprocessing
+
+1. Run `Preprocessing_EN.py` from `Scripts/Data_Preparation` to clean and format the raw data.
+
+### Feature Extraction
+
+1. Run `Audio_Feature_Extraction.py` from `Scripts/Feature_Extraction` to extract audio features.
+2. Run `Video_Feature_Extraction.py` to extract video features.
+
+### Model Training
+
+#### Audio Extraction Model
+1. Navigate to `Scripts/Model_Training`.
+2. Run `Train_Audio_Extraction.py`.
+
+#### Translation Model
+1. Run `Train_Translation.py`.
+
+#### Emotion Analysis Model
+1. Run `Train_Emotion_Analysis.py`.
+
+#### Speech Synthesis Model
+1. Run `Train_Speech_Synthesis.py`.
+
+#### Multimodal Fusion Model
+1. Run `Train_Multimodal_Fusion.py`.
+
+### Hyperparameter Tuning
+1. Navigate to `Scripts/Utilities`.
+2. Run `Hyperparameter_Tuning.py`.
+
+### Model Evaluation
+1. Run all scripts in `Scripts/Model_Evaluation` to evaluate the models.
+
+### Data Augmentation (Optional)
+1. Run `Data_Augmentation.py` from `Scripts/Utilities` if more data is needed.
+
+### Model Deployment
+1. Run `Model_Deployment.py` from `Scripts/Utilities` for deploying the model.
+
 
 ## Logs
 
