@@ -58,6 +58,40 @@ Refer to [System_Specs](System_Specs/) for system requirements.
 
 Instructions to install dependencies and set up the project. Refer to [Dockerfile](Dockerfile) and [docker-compose.yml](docker-compose.yml) for Docker-based setup.
 
+## Project Execution Steps
+
+### Step 1: Environment Setup
+- Clone the repository.
+- Install the required packages via `pip install -r requirements.txt`.
+
+### Step 2: Data Preparation
+- Run `Preprocessing_EN.py` and `Preprocessing_KZ.py` from the `Scripts/Data_Preparation/` directory.
+
+### Step 3: Feature Extraction
+- Run `Audio_Feature_Extraction.py` and `Video_Feature_Extraction.py` from the `Scripts/Feature_Extraction/` directory.
+
+### Step 4: Model Training
+- Execute all the training scripts in `Scripts/Model_Training/`.
+
+### Step 5: Model Evaluation
+- Execute all evaluation scripts in `Scripts/Model_Evaluation/`.
+
+### Step 6: Benchmarking
+- View performance metrics in `Benchmarks/performance_metrics.csv`.
+
+### Step 7: Model Deployment
+- Use `Model_Deployment.py` from the `Scripts/Utilities/` directory.
+
+### Step 8: Tests
+- Run `test_data_preparation.py` and `test_feature_extraction.py` from the `Tests/unit_tests/` directory.
+
+### Step 9: Documentation
+- Consult `Docs/` for project and model documentation.
+
+### Step 10: Notebook Exploration
+- Open `Data_Exploration.ipynb` and `Model_Prototyping.ipynb` from the `Notebooks/` directory for further data and model exploration.
+
+
 ## Configuration
 
 Configuration details are stored in [.env](.env). Modify as needed.
