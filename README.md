@@ -20,11 +20,12 @@
 16. [Tests](#tests)
 17. [Security](#security)
 18. [Tools](#tools)
-19. [Contributing](#contributing)
-20. [License](#license)
-21. [Changelog](#changelog)
-22. [Domain and Task](#domain-and-task)
-23. [Parameters/Hyperparameters](#parametershyperparameters)
+19. [Frameworks and Toolkits(#Frameworks and Toolkits)]
+20. [Contributing](#contributing)
+21. [License](#license)
+22. [Changelog](#changelog)
+23. [Domain and Task](#domain-and-task)
+24. [Parameters/Hyperparameters](#parametershyperparameters)
 
 ## Introduction
 
@@ -139,6 +140,69 @@ Security guidelines are in [SECURITY.md](SECURITY.md).
 ## Tools
 
 Refer to [Tools](Tools/) for any additional tooling.
+
+## Frameworks and Toolkits
+
+### General Machine Learning Frameworks
+- **PyTorch or TensorFlow**: Extensive libraries and community support.
+- **Scikit-learn**: For simpler machine learning tasks and data preprocessing.
+
+### Speech Recognition
+- **ESPnet**: End-to-end speech processing.
+- **Kaldi**: A toolkit for speech recognition.
+
+### Text-to-Speech
+- **Tacotron 2**: High-quality speech output.
+- **WaveGlow**: A flow-based generative network for speech synthesis.
+
+### Audio Signal Processing
+- **Librosa**: For audio feature extraction.
+- **SoX (Sound eXchange)**: A command-line utility to convert, process, and play audio files.
+
+### Video Processing
+- **OpenCV**: For video processing tasks.
+- **FFmpeg**: For video and audio conversions.
+
+### Natural Language Processing
+- **Hugging Face Transformers**: Pre-trained models.
+- **NLTK (Natural Language Toolkit)**: For text analytics and preprocessing.
+
+### Emotion Recognition
+- **OpenSmile**: Feature extraction for audio-based emotion recognition.
+- **Affectiva SDK**: Emotion recognition from facial expressions.
+
+### Multimodal Learning
+- **MMF (Multimodal Framework by Facebook)**: For joint representations.
+- **TensorFlow.js**: If you plan to deploy models in web applications.
+
+### Data Augmentation
+- **Augmentor**: For audio and video.
+- **Albumentations**: For image augmentation in video frames.
+
+### Model Deployment
+- **TensorFlow Serving or TorchServe**: For serving models.
+- **Docker**: For containerizing your application.
+
+### Configuration and Experiment Tracking
+- **Hydra**: For dynamic configuration.
+- **MLflow**: For experiment tracking and model versioning.
+
+### Data Pipelining
+- **DVC (Data Version Control)**: For data versioning.
+- **Apache NiFi**: For data flow automation.
+
+### CUDA and GPU Acceleration
+- **CUDA Toolkit**: For GPU-accelerated computation.
+- **cuDNN (CUDA Deep Neural Network library)**: A GPU-accelerated library for deep neural networks.
+
+### Data Storage
+- **HDF5**: For storing large datasets efficiently.
+- **SQLite**: For lightweight, disk-based storage.
+
+### Collaboration and Version Control
+- **Git**: For source code version control.
+- **Jupyter Notebook**: For sharing code, equations, and visualizations.
+
 
 ## Contributing
 
